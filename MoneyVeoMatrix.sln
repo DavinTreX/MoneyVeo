@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyVeoMatrix", "MoneyVeoMatrix\MoneyVeoMatrix.csproj", "{B1420892-A8A5-4074-9470-C7B5602F7E89}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyVeoMatrix.Engines", "MoneyVeoMatrix.Engines\MoneyVeoMatrix.Engines.csproj", "{52BD7675-A9EE-4E60-AD5E-7CE524263E8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyVeoMatrix.Engines.Tests", "MoneyVeoMatrix.Engines.Tests\MoneyVeoMatrix.Engines.Tests.csproj", "{45281F8F-4225-43FB-A34D-87E24D77309A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyVeoMatrix.DTOs", "MoneyVeoMatrix.DTOs\MoneyVeoMatrix.DTOs.csproj", "{8540C354-18A2-46DE-83F2-530C5422E95D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1420892-A8A5-4074-9470-C7B5602F7E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1420892-A8A5-4074-9470-C7B5602F7E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1420892-A8A5-4074-9470-C7B5602F7E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1420892-A8A5-4074-9470-C7B5602F7E89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52BD7675-A9EE-4E60-AD5E-7CE524263E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52BD7675-A9EE-4E60-AD5E-7CE524263E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52BD7675-A9EE-4E60-AD5E-7CE524263E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52BD7675-A9EE-4E60-AD5E-7CE524263E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45281F8F-4225-43FB-A34D-87E24D77309A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45281F8F-4225-43FB-A34D-87E24D77309A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45281F8F-4225-43FB-A34D-87E24D77309A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45281F8F-4225-43FB-A34D-87E24D77309A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8540C354-18A2-46DE-83F2-530C5422E95D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8540C354-18A2-46DE-83F2-530C5422E95D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8540C354-18A2-46DE-83F2-530C5422E95D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8540C354-18A2-46DE-83F2-530C5422E95D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9C69C70-3D67-4063-9757-2E78BCAAD203}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+<table class='table' *ngIf="matrixDTO">
+  <tbody>
+    <tr *ngFor="let mat of matrixDTO.matrix">
+      <td *ngFor="let mats of mat">
+        {{ mats }}
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<button (click)="GenerateMatrix()">Generate</button>
+
+<button (click)="RotateMatrix()">Rotate 90*</button>
+<button (click)="ExportMatrix()">Export Matrix</button>
+
